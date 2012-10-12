@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD244E01627E344009F25BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD244DF1627E344009F25BF /* UIKit.framework */; };
+		FAD244E21627E344009F25BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD244E11627E344009F25BF /* Foundation.framework */; };
+		FAD244E41627E344009F25BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD244E31627E344009F25BF /* CoreGraphics.framework */; };
+		FAD244E61627E344009F25BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD244E51627E344009F25BF /* CoreData.framework */; };
+		FAD244EC1627E344009F25BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD244EA1627E344009F25BF /* InfoPlist.strings */; };
+		FAD244EE1627E344009F25BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD244ED1627E344009F25BF /* main.m */; };
+		FAD244F21627E344009F25BF /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD244F11627E344009F25BF /* RTAppDelegate.m */; };
+		FAD244F41627E344009F25BF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD244F31627E344009F25BF /* Default.png */; };
+		FAD244F61627E344009F25BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD244F51627E344009F25BF /* Default@2x.png */; };
+		FAD244F81627E344009F25BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD244F71627E344009F25BF /* Default-568h@2x.png */; };
+		FAD244FB1627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAD244F91627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodeld */; };
+		FAD244FE1627E344009F25BF /* RTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD244FD1627E344009F25BF /* RTMasterViewController.m */; };
+		FAD245011627E344009F25BF /* RTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD245001627E344009F25BF /* RTDetailViewController.m */; };
+		FAD245041627E344009F25BF /* RTMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD245021627E344009F25BF /* RTMasterViewController.xib */; };
+		FAD245071627E344009F25BF /* RTDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD245051627E344009F25BF /* RTDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAD244DB1627E344009F25BF /* GithubPublicReposForXcodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubPublicReposForXcodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD244DF1627E344009F25BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAD244E11627E344009F25BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD244E31627E344009F25BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAD244E51627E344009F25BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAD244E91627E344009F25BF /* GithubPublicReposForXcodeDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GithubPublicReposForXcodeDemo-Info.plist"; sourceTree = "<group>"; };
+		FAD244EB1627E344009F25BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD244ED1627E344009F25BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD244EF1627E344009F25BF /* GithubPublicReposForXcodeDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GithubPublicReposForXcodeDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FAD244F01627E344009F25BF /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		FAD244F11627E344009F25BF /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		FAD244F31627E344009F25BF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAD244F51627E344009F25BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAD244F71627E344009F25BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAD244FA1627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubPublicReposForXcodeDemo.xcdatamodel; sourceTree = "<group>"; };
+		FAD244FC1627E344009F25BF /* RTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTMasterViewController.h; sourceTree = "<group>"; };
+		FAD244FD1627E344009F25BF /* RTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTMasterViewController.m; sourceTree = "<group>"; };
+		FAD244FF1627E344009F25BF /* RTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTDetailViewController.h; sourceTree = "<group>"; };
+		FAD245001627E344009F25BF /* RTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTDetailViewController.m; sourceTree = "<group>"; };
+		FAD245031627E344009F25BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTMasterViewController.xib; sourceTree = "<group>"; };
+		FAD245061627E344009F25BF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD244D81627E344009F25BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD244E01627E344009F25BF /* UIKit.framework in Frameworks */,
+				FAD244E21627E344009F25BF /* Foundation.framework in Frameworks */,
+				FAD244E41627E344009F25BF /* CoreGraphics.framework in Frameworks */,
+				FAD244E61627E344009F25BF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD244D01627E344009F25BF = {
+			isa = PBXGroup;
+			children = (
+				FAD244E71627E344009F25BF /* GithubPublicReposForXcodeDemo */,
+				FAD244DE1627E344009F25BF /* Frameworks */,
+				FAD244DC1627E344009F25BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD244DC1627E344009F25BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD244DB1627E344009F25BF /* GithubPublicReposForXcodeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD244DE1627E344009F25BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD244DF1627E344009F25BF /* UIKit.framework */,
+				FAD244E11627E344009F25BF /* Foundation.framework */,
+				FAD244E31627E344009F25BF /* CoreGraphics.framework */,
+				FAD244E51627E344009F25BF /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD244E71627E344009F25BF /* GithubPublicReposForXcodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAD244F01627E344009F25BF /* RTAppDelegate.h */,
+				FAD244F11627E344009F25BF /* RTAppDelegate.m */,
+				FAD244FC1627E344009F25BF /* RTMasterViewController.h */,
+				FAD244FD1627E344009F25BF /* RTMasterViewController.m */,
+				FAD244FF1627E344009F25BF /* RTDetailViewController.h */,
+				FAD245001627E344009F25BF /* RTDetailViewController.m */,
+				FAD245021627E344009F25BF /* RTMasterViewController.xib */,
+				FAD245051627E344009F25BF /* RTDetailViewController.xib */,
+				FAD244F91627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodeld */,
+				FAD244E81627E344009F25BF /* Supporting Files */,
+			);
+			path = GithubPublicReposForXcodeDemo;
+			sourceTree = "<group>";
+		};
+		FAD244E81627E344009F25BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD244E91627E344009F25BF /* GithubPublicReposForXcodeDemo-Info.plist */,
+				FAD244EA1627E344009F25BF /* InfoPlist.strings */,
+				FAD244ED1627E344009F25BF /* main.m */,
+				FAD244EF1627E344009F25BF /* GithubPublicReposForXcodeDemo-Prefix.pch */,
+				FAD244F31627E344009F25BF /* Default.png */,
+				FAD244F51627E344009F25BF /* Default@2x.png */,
+				FAD244F71627E344009F25BF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD244DA1627E344009F25BF /* GithubPublicReposForXcodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD2450A1627E344009F25BF /* Build configuration list for PBXNativeTarget "GithubPublicReposForXcodeDemo" */;
+			buildPhases = (
+				FAD244D71627E344009F25BF /* Sources */,
+				FAD244D81627E344009F25BF /* Frameworks */,
+				FAD244D91627E344009F25BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GithubPublicReposForXcodeDemo;
+			productName = GithubPublicReposForXcodeDemo;
+			productReference = FAD244DB1627E344009F25BF /* GithubPublicReposForXcodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD244D21627E344009F25BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = FAD244D51627E344009F25BF /* Build configuration list for PBXProject "GithubPublicReposForXcodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAD244D01627E344009F25BF;
+			productRefGroup = FAD244DC1627E344009F25BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD244DA1627E344009F25BF /* GithubPublicReposForXcodeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD244D91627E344009F25BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD244EC1627E344009F25BF /* InfoPlist.strings in Resources */,
+				FAD244F41627E344009F25BF /* Default.png in Resources */,
+				FAD244F61627E344009F25BF /* Default@2x.png in Resources */,
+				FAD244F81627E344009F25BF /* Default-568h@2x.png in Resources */,
+				FAD245041627E344009F25BF /* RTMasterViewController.xib in Resources */,
+				FAD245071627E344009F25BF /* RTDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD244D71627E344009F25BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD244EE1627E344009F25BF /* main.m in Sources */,
+				FAD244F21627E344009F25BF /* RTAppDelegate.m in Sources */,
+				FAD244FB1627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodeld in Sources */,
+				FAD244FE1627E344009F25BF /* RTMasterViewController.m in Sources */,
+				FAD245011627E344009F25BF /* RTDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAD244EA1627E344009F25BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD244EB1627E344009F25BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD245021627E344009F25BF /* RTMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD245031627E344009F25BF /* en */,
+			);
+			name = RTMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		FAD245051627E344009F25BF /* RTDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD245061627E344009F25BF /* en */,
+			);
+			name = RTDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD245081627E344009F25BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAD245091627E344009F25BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD2450B1627E344009F25BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GithubPublicReposForXcodeDemo/GithubPublicReposForXcodeDemo-Prefix.pch";
+				INFOPLIST_FILE = "GithubPublicReposForXcodeDemo/GithubPublicReposForXcodeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAD2450C1627E344009F25BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GithubPublicReposForXcodeDemo/GithubPublicReposForXcodeDemo-Prefix.pch";
+				INFOPLIST_FILE = "GithubPublicReposForXcodeDemo/GithubPublicReposForXcodeDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD244D51627E344009F25BF /* Build configuration list for PBXProject "GithubPublicReposForXcodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD245081627E344009F25BF /* Debug */,
+				FAD245091627E344009F25BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD2450A1627E344009F25BF /* Build configuration list for PBXNativeTarget "GithubPublicReposForXcodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD2450B1627E344009F25BF /* Debug */,
+				FAD2450C1627E344009F25BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAD244F91627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAD244FA1627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodel */,
+			);
+			currentVersion = FAD244FA1627E344009F25BF /* GithubPublicReposForXcodeDemo.xcdatamodel */;
+			path = GithubPublicReposForXcodeDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAD244D21627E344009F25BF /* Project object */;
+}
